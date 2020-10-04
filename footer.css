@@ -1,0 +1,52 @@
+.footer-left, .footer-right {
+    float: left;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.footer-left{
+    padding-top: 18px;
+}
+
+.footer-right{
+        /*-- прижать текст  --- */
+    text-align: right;
+}
+
+.conyright{
+    font-size: 14px;
+    font-weight: 300;
+    color: #9c9c9c;
+
+}
+
+.socials__item{
+    display: inline-block;
+        /*-- выравание --- */
+    vertical-align: middle;
+    margin-left: 6px;
+}
+
+.socials__link {
+    width: 32px;
+    height: 32px;
+    display: block;
+    background: no-repeat center center;
+}
+
+
+.cosials__link_fb {
+    background-image: url(/img/FaceBook.jpg);
+}
+.cosials__link_fb:hover {
+    background-image: url(/img/FaceBookhover.jpg);
+}
+
+.cosials__link_tw {
+    background-image: url(/img/Twitter.jpg);
+}
+
+.cosials__link_tw:hover {
+    background-image: url(/img/Twitterhover.jpg);
+}
+

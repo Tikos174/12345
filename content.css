@@ -1,0 +1,53 @@
+.sidebar, .page-content {
+    float: left;
+}
+
+.sidebar {
+    width: 220px;
+}
+
+.stuff{
+    margin-left: 20px;
+    width: 700;
+}
+
+.page-content {
+    width: 720px;
+}
+
+.title{
+         /*--- Жирность букв --- */
+    font-weight: 500;
+        /*-- Высота строки --- */
+    font-size: 35px;
+    color: #414141;
+        /*-- Отступ --- */
+    margin-bottom: 30px;
+}
+
+.download-link {
+    padding: 7px 13px;
+    border: 2px solid #e85f61;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #e85f61;
+     /*-- Подчеркивание браузера --- */
+    text-decoration: none;
+}
+
+.btn__icon, .btn__text {
+    display: inline-block;
+    /*-- Подчеркивание --- */
+    vertical-align: middle;
+}
+
+..btn__text{
+    margin-left: 8px;
+}
+
+/*-- Заливка при наведении --- */
+.download-link:hover {
+    background: #e85f61;
+    color: #fff;
+}
